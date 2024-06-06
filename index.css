@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 1;
+}
+
+.navlist {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.navlist li {
+    padding: 0px 15px;
+}
+
+.navlist li a {
+    font-size: 18px;
+    color: rgb(69, 69, 172);
+    text-decoration: none;
+}
+
+.navlist li a:hover {
+    color: skyblue;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    
+}
+
+.button a{
+    padding: 5px 15px;
+    margin-left: 8px;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    background-color: #1a73e8;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button a:hover {
+    background-color: #066bf098;
+}
+
+.intro {
+    margin-top: 35px;
+    padding: 20px;
+    text-align: center;
+}
+
+.intro h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.intro p {
+    font-size: 18px;
+    color: #777;
+}
+
+/* Benefits Section */
+.benefits {
+    padding: 30px;
+    background-color: #f8f8f8;
+}
+
+.benefits h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.benefits ul {
+    list-style: none;
+    font-size: 16px;
+    color: #555;
+}
+
+.benefits li {
+    margin-bottom: 10px;
+}
+
+.photo {
+    display: inline-block;
+    justify-content: space-between;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-left: 5px solid #5cb85c;
+    font-style: italic;
+    text-align: left;
+}
+
+.quote h3 {
+    color: #333;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.quote strong {
+    font-weight: normal;
+    color: #555;
+    line-height: 1.6;
+}
