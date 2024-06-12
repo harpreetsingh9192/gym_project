@@ -76,17 +76,12 @@ body {
     text-align: center;
     text-decoration: none;
     cursor: pointer;
+    font-size: 16px;
     margin-top: 10px;
 }
 
 .submit-btn {
     background-color: #5cb85c;
-}
-
-.button a {
-    text-decoration: none;
-    color: white;
-    font-size: 16px;
 }
 
 .submit-btn:hover {
