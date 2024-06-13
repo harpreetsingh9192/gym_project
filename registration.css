@@ -13,7 +13,7 @@ body {
 .container {
     max-width: 600px;
     border-radius: 15px;
-    margin: 30px auto;
+    margin: 20px auto;
     padding: 20px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -53,17 +53,22 @@ body {
 
 .gender-options {
     display: flex;
-    align-items: center;
+    flex-direction: column;
 }
 
 .gender-options label {
     margin-right: 10px;
 }
 
+.gender-options div {
+    display: flex;
+    flex-direction: row;
+}
+
 .button {
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .back-btn,
