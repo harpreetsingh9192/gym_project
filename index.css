@@ -15,11 +15,15 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    padding: 13px;
+    padding: 10px;
     position: fixed;
     width: 100%;
     background-color: white;
     z-index: 1;
+}
+
+.navbar {
+    padding: 5px;
 }
 
 .navlist {
@@ -45,12 +49,12 @@ header {
 .button {
     display: flex;
     align-items: center;
-    
 }
 
 .button a{
     padding: 5px 15px;
     margin-left: 8px;
+    margin-top: 1px;
     font-size: 18px;
     color: white;
     text-decoration: none;

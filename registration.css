@@ -1,11 +1,8 @@
 body {
-    font-family: 'Arial', sans-serif;
-    background-image: url(bkimg.jpg);
+    background-image: url(bkimg2.jpg);
     background-size: cover;
     background-position: center;
-    backdrop-filter: blur(7px);
-    height: 100vh;
-    overflow: hidden;
+    backdrop-filter: 7px;
     margin: 0;
     padding: 0;
 }
@@ -13,15 +10,17 @@ body {
 .container {
     max-width: 600px;
     border-radius: 15px;
-    margin: 20px auto;
+    margin: 20px;
+    margin-left: 100px;
     padding: 20px;
-    background-color: #fff;
+    background-color: gray;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .registration-form {
     display: flex;
     flex-direction: column;
+    color: white;
 }
 
 .input-group {
@@ -45,10 +44,14 @@ body {
 .input-group input[type="email"],
 .input-group input[type="password"],
 .input-group input[type="date"] {
-    width: 98%;
+    width: 97%;
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 5px;
+}
+
+.input-group input[type="text"]{
+    width: 112%;
 }
 
 .gender-options {
@@ -83,6 +86,14 @@ body {
     cursor: pointer;
     font-size: 16px;
     margin-top: 10px;
+}
+
+.clrbutton{
+ float: right;
+}
+
+.clrbutton:hover {
+    cursor: pointer;
 }
 
 .submit-btn {
